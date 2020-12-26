@@ -1,0 +1,24 @@
+.text-c {
+  color: red; }
+
+.text-main {
+  color: blue; }
+
+.animate {
+  -webkit-transform: translate(10px, 10px);
+      -ms-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
+  -webkit-animation: ani;
+          animation: ani; }
+
+@-webkit-keyframes ani {
+  from {
+    left: 0; }
+  to {
+    left: 10%; } }
+
+@keyframes ani {
+  from {
+    left: 0; }
+  to {
+    left: 10%; } }

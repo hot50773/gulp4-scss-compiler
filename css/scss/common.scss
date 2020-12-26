@@ -1,0 +1,25 @@
+$main: blue;
+$c: red;
+
+.text-c {
+  color: $c;
+}
+// body {
+//   background-color: $c;
+//   transform: rotate(10deg);
+// }
+// a {color: aliceblue;}
+
+.text-main {
+  color: $main;
+}
+
+.animate {
+  transform: translate(10px, 10px);
+  animation: ani;
+}
+
+@keyframes ani {
+  from { left: 0;}
+  to { left: 10%; }
+}
